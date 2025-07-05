@@ -1,0 +1,11 @@
+/* ABOUT US. HTML */
+
+.nosotros {
+  background-color: #adb2d4;
+  padding: 32px;
+}
+
+.nosotros__titulo {
+  font-size: 32px;
+  margin-bottom: 16px;
+}

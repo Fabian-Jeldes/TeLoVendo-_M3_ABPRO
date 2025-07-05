@@ -1,145 +1,37 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    display:flex
-}
 body {
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-header, nav, main, footer {
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 nav ul {
   list-style: none;
-  display: flex;
   gap: 1rem;
+  flex-direction: row;
 }
 .ficha__imagen {
   max-width: 100%;
   height: auto;
 }
-
-
-
-
-
-
-/* CATALOGO.HTML */ 
-
-.cards {
-    width: 300px;
-    margin: 10px auto; 
-    padding: 10px; 
-    border: 1px solid gray; 
-    box-shadow: 0 0 20px gray;
-    border-radius: 5px;  
-
+.--bg-color1 {
+  background-color: #adb2d4;
 }
-
-/* ABOUT US. HTML */ 
-
-
-/* FICHA. HTML */ 
-.recurso {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 1rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.--bg-color2 {
+  background-color: #c7d9dd;
 }
-
-.recurso__imagen {
-  width: 200px;
-  height: auto;
-  object-fit: cover;
+.--bg-color3 {
+  background-color: #d5e5d5;
 }
-
-.recurso__contenido {
-  flex: 1;
-  padding: 1rem;
+.--bg-color4 {
+  background-color: #eef1da;
 }
-
-.recurso__titulo {
-  font-size: 1.5rem;
-  color: #333;
-  margin: 0;
-}
-
-.recurso__autor {
-  font-size: 1rem;
-  color: #666;
-  margin: 0.5rem 0;
-}
-
-.recurso__descripcion {
-  font-size: 1rem;
-  color: #444;
-}
-
-.recurso__info {
-  font-size: 0.9rem;
-  color: #888;
-  margin-top: 0.5rem;
-}
-
-.recurso__boton {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #4CAF50;
+.--texto-blanco {
   color: white;
-  text-decoration: none;
-  border-radius: 4px;
 }
-
-.recurso__boton:hover {
-  background-color: #45a049;
+.--texto-negro {
+  color: black;
 }
-
-@media (max-width: 600px) {
-  .recurso {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .recurso__imagen {
-    width: 100%;
-    max-width: 300px;
-  }
-}
-
-
-
-/* INDEX.HTML */
-.navegacion{
-  background-color: #333;
-}
-.navegacion__menu{
-
-}
-.navegacion__item{
-
-}
-.navegacion__link{
-
-}
-
-
-.hero{
-  background-color: aliceblue;
-}
-.hero__titulo{
- color: black;
- text-align: center;
-}
-.hero__boton{
-  background-color: black;
-  color: white;
+.--fuente-opensans {
+  font-family: "Open Sans", sans-serif;
 }

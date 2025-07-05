@@ -1,0 +1,90 @@
+/* INDEX.HTML */
+.navegacion {
+  padding: 0.5rem;
+}
+.navegacion__menu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.navegacion__item {
+  font-size: 1rem;
+}
+.navegacion__link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.navegacion__link:hover {
+  background-color: #d5e5d5;
+  color: black;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero__logo{
+align-items: center;
+}
+.hero__titulo {
+  text-align: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin: 1rem 0;
+}
+.hero__descripcion {
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+.hero__botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hero__boton {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  border: 0;
+}
+.hero__boton:hover {
+  background-color: #adb2d4;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.novedades {
+  padding: 2rem;
+  text-align: center;
+}
+.contacto {
+  text-align: center;
+  align-content: center;
+  padding-bottom: 1rem;
+}
+.contacto__formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.contacto__boton {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 1rem;
+  border: none;
+  background-color: #adb2d4;
+  color: black;adb2d4
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+}

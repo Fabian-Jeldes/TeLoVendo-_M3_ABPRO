@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía general */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #adb2d4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Ficha principal */
+.ficha {
+  background-color: #b6bce2;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.ficha__imagen {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 4px solid #e0e0e0;
+  display: block;
+}
+
+/* Contenido de la ficha */
+.ficha__contenido {
+  padding: 20px;
+}
+
+.ficha__titulo {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.ficha__autor {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ficha__descripcion {
+  margin-bottom: 15px;
+}
+
+.ficha__info {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Botón de WhatsApp */
+.ficha__boton {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.ficha__boton:hover {
+  background-color: #1ebe5d;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .ficha {
+    flex-direction: row;
+  }
+
+  .ficha__imagen {
+    width: 50%;
+    height: auto;
+  }
+
+  .ficha__contenido {
+    width: 50%;
+  }
+}
