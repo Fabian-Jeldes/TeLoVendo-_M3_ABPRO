@@ -1,120 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Te Lo Vendo</title>
-    <link rel="stylesheet" href="./style/style_index.css">
-    <link rel="stylesheet" href="./style/style.css" />
 
-    <!--letra fuente-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--header-->
-    <header>
-      <!--navbar-->
-      <nav class="navegacion --bg-color1 --fuente-opensans">
-        <ul class="navegacion__menu --texto-negro --bg-color1">
-          <li class="navegacion__item">
-            <a class="navegacion__link --bg-color2 --texto-negro" href="#inicio"
-              >Inicio</a
-            >
-          </li>
-          <li class="navegacion__item">
-            <a
-              class="navegacion__link --bg-color2 --texto-negro"
-              href="catalogo.html"
-              >Catálogo</a
-            >
-          </li>
-          <li class="navegacion__item">
-            <a
-              class="navegacion__link --bg-color2 --texto-negro"
-              href="ficha.html"
-              >Ficha</a
-            >
-          </li>
-          <li class="navegacion__item">
-            <a
-              class="navegacion__link --bg-color2 --texto-negro"
-              href="aboutus.html"
-              >Nosotros</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!--hero seccion-->
-      <section class="hero --bg-color2 --fuente-opensans">
-        <img src="./img/libros.png" alt="logolibros"
-        width="200px" height="200px" class="hero__logo">
-        <h1 class="hero__titulo">Te Lo Vendo</h1>
-        <p class="hero__descripcion --texto-negro">
-          
-        </p>
-        <div class="hero__botones">
-          <button
-            class="hero__boton --bg-color3 --texto-negro --fuente-opensans"
-            href="#contacto"
-          >
-            Contacto
-          </button>
-          <button
-            class="hero__boton --bg-color3 --texto-negro --fuente-opensans"
-            href="aboutus.html"
-          >
-            Sobre Nosotros
-          </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Te Lo Vendo</title>
+  <link rel="stylesheet" href="./style/style_index.css">
+  <link rel="stylesheet" href="./style/ficha.css">
+  <link rel="stylesheet" href="./style/style.css" />
+  <!--letra fuente-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <!--navbar-->
+    <nav class="navegacion --bg-color1 --fuente-opensans">
+      <ul class="navegacion__menu --texto-negro --bg-color1">
+        <li class="navegacion__item">
+          <a class="navegacion__link --bg-color2 --texto-negro" href="#inicio">Inicio</a>
+        </li>
+        <li class="navegacion__item">
+          <a class="navegacion__link --bg-color2 --texto-negro" href="catalogo.html">Catálogo</a>
+        </li>
+        <li class="navegacion__item">
+          <a class="navegacion__link --bg-color2 --texto-negro" href="#novedades">Novedades</a>
+        </li>
+        <li class="navegacion__item">
+          <a class="navegacion__link --bg-color2 --texto-negro" href="aboutus.html">Nosotros</a>
+        </li>
+      </ul>
+    </nav>
+    <!--hero seccion-->
+    <section class="hero --bg-color2 --fuente-opensans">
+      <img src="./img/libros.png" alt="logolibros" class="hero__logo">
+      <h1 class="hero__titulo">Te Lo Vendo</h1>
+      <p class="hero__descripcion --texto-negro">
+        En “Te lo Vendo” somos un grupo de jóvenes emprendedores apasionados por la lectura. Creamos esta librería
+        online para que encuentres desde clásicos atemporales hasta las últimas novedades, todo en una plataforma fácil
+        de usar, segura y pensada para que vivas la mejor experiencia de compra literaria.
+      </p>
+      <div class="hero__botones">
+        <button class="hero__boton --bg-color3 --texto-negro --fuente-opensans" href="#contacto">
+          Contacto
+        </button>
+        <button class="hero__boton --bg-color3 --texto-negro --fuente-opensans" href="aboutus.html">
+          Sobre Nosotros
+        </button>
+      </div>
+      <!--fin hero seccion-->
+    </section>
+  </header>
+  <!--main-->
+  <main>
+    <section class="novedades --bg-color3 --fuente-opensans" id="novedades">
+      <h2>Novedades</h2>
+      <p>
+        Bienvenido a nuestra biblioteca digital. Revisa nuestras últimas
+        incorporaciones.
+      </p>
+      <div class="novedades__imagen"></div>
+      <article class="ficha ficha--recurso --bg-color4">
+        <img
+          src="https://www.planetadelibros.com/usuaris/blog_entrada/detalle/thumbs/6b6c03f6-04e8-47f1-a423-7a0e7ed200b8/d_1920_560_crop/1ee27079-84e8-4c2f-94dd-6f0ae37de294-1920x560-saga_empireo.webp"
+          alt="Portada del recurso" class="ficha__imagen">
+        <div class="ficha__contenido">
+          <h3 class="ficha__titulo">Saga Empireo</h3>
+          <p class="ficha__autor">Rebecca Yarros</p>
+          <p class="ficha__info">Categoría: Fantasia</p>
+          <a href="/assets/ficha.html" class="ficha__boton --bg-color1 --texto-blanco">Más información</a>
         </div>
-        <!--fin hero seccion-->
-      </section>
-    </header>
-    <!--main-->
-    <main>
-      <section class="novedades --bg-color3 --fuente-opensans">
-        <h2>Novedades</h2>
-        <p>
-          Bienvenido a nuestra biblioteca digital. Revisa nuestras últimas
-          incorporaciones.
-        </p>
-      </section>
-      <section class="contacto --bg-color4 --fuente-opensans" id="contacto">
-          <h2>Contáctanos</h2>
-          <div class="contacto__formulario">
-            <form>
-              <div class:="formulario__nombre">
-                <label class="formulario__etiqueta" for="nombre">Nombre</label>
-                <input type="text" id="nombre" required />
-              </div>
-              <div class:="formulario__email">
-                <label for="email">Correo</label>
-                <input type="email" id="email" required />
-              </div>
-              <div class:="formulario__mensaje">
-                <label for="mensaje">Mensaje</label>
-                <textarea
-                  id="mensaje"
-                  rows="3"
-                  required
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                class="contacto__boton --bg-color2 --texto-negro --fuente-opensans">
-                Enviar Mensaje
-              </button>
-            </form>
+      </article>
+
+    </section>
+    <section class="contacto --bg-color4 --fuente-opensans" id="contacto">
+      <h2>Contáctanos</h2>
+      <div class="contacto__formulario">
+        <form>
+          <div class:="formulario__nombre">
+            <label class="formulario__etiqueta" for="nombre">Nombre</label>
+            <input type="text" id="nombre" required />
           </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer --fuente-opensans --bg-color1">
-      <p>2025 Te lo Vendo</p>
-    </footer>
-  </body>
+          <div class:="formulario__email">
+            <label for="email">Correo</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class:="formulario__mensaje">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="contacto__boton --bg-color2 --texto-negro --fuente-opensans">
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer --fuente-opensans --bg-color1">
+    <p>&copy 2025 Te lo Vendo</p>
+  </footer>
+  <script src="./js/indexjs.js"></script>
+</body>
+
 </html>
