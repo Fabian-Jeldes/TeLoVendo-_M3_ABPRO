@@ -8,15 +8,17 @@
 /* Tipografía general */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #adb2d4;
+  background-color: #d5e5d5;
   color: #333;
   line-height: 1.6;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Encabezado */
 header {
-  background-color: #2c3e50;
+  background-color: #adb2d4;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -113,3 +115,72 @@ footer {
     width: 50%;
   }
 }
+
+.card {
+  width: 300px;
+  background-color: #adb2d4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autor{
+  font-size: large;
+  font-style: italic;
+  font-family: "Arial"; 
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.catalogo {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px; 
+
+}
+
+.descripcion {
+  font-size: 14px;
+  color: #333;
+  text-align: justify;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 5px;
+}
+
+.img__card {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #2c3e50;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.btn-agregar{
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+} 

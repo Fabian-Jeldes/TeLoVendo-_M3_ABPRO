@@ -2,8 +2,8 @@
 .navegacion {
   padding: 0.5rem;
 }
-.navegacion__logo {
-}
+
+
 .navegacion__menu {
   display: flex;
   gap: 1rem;
