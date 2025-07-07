@@ -1,9 +1,45 @@
 /* INDEX.HTML */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+nav ul {
+  list-style: none;
+  gap: 1rem;
+  flex-direction: row;
+}
+.ficha__imagen {
+  max-width: 100%;
+  height: auto;
+}
+.--bg-color1 {
+  background-color: #adb2d4;
+}
+.--bg-color2 {
+  background-color: #c7d9dd;
+}
+.--bg-color3 {
+  background-color: #d5e5d5;
+}
+.--bg-color4 {
+  background-color: #eef1da;
+}
+.--texto-blanco {
+  color: white;
+}
+.--texto-negro {
+  color: black;
+}
+.--fuente-opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
 .navegacion {
   padding: 0.5rem;
 }
-
-
 .navegacion__menu {
   display: flex;
   gap: 1rem;
@@ -53,7 +89,7 @@
 .hero__boton {
   padding: 0.5rem 1rem;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 4px;
   margin-bottom: 1rem;
   border: 0;
 }
@@ -67,25 +103,58 @@
   padding: 2rem;
   text-align: center;
 }
+
 .contacto {
-  text-align: center;
-  align-content: center;
-  padding-bottom: 1rem;
+  padding: 40px 20px;
 }
+
+.contacto__container {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto__titulo {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .contacto__formulario {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
 }
+.contacto__input,
+.contacto__textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contacto__textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
 .contacto__boton {
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 20px;
-  margin-top: 1rem;
+  padding: 12px;
+  font-weight: bold;
   border: none;
-  background-color: #adb2d4;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+
+.contacto__boton:hover {
+  background-color: #c7d9dd;
+}
+
 .footer {
   text-align: center;
+  font-weight: bold;
 }
