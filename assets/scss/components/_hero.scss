@@ -33,7 +33,7 @@
     border: 0;
     background-color: variables.$third-color;
     &:hover {
-      background-color: #adb2d4;
+      background-color: variables.$first-color;
       transition: background-color 0.3s ease;
       cursor: pointer;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

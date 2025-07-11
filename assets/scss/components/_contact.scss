@@ -1,0 +1,48 @@
+// _contact.scss
+@use "../abstracts/_variables.scss";
+.contact{
+    background-color: variables.$fourth-color;
+    padding: 40px 20px;
+    &__contacto__container {
+        max-width: 600px;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    &__title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    &__input {
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    &__textarea{
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+        }
+    &__button{
+        padding: 12px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &:hover{
+            background-color: variables.$second-color;
+        }
+        }
+    }
+}

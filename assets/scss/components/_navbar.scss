@@ -3,8 +3,7 @@
 
 .navbar {
     padding: 0.5rem;
-    background-color: variables.$first-color;
-
+    background-color: variables.$second-color;
     &__menu {
         display: flex;
         flex-direction: row;
@@ -22,7 +21,6 @@
         padding: 0.5rem 1rem;
         text-decoration: none;
         border-radius: 20px;
-
         &:hover {
             background-color: #d5e5d5;
             color: black;

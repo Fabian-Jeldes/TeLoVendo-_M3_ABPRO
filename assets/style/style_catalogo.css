@@ -93,8 +93,7 @@ body {
 }
 
 .btn-agregar{
-  background-color: #4CAF50; /* Verde */
-  color: white;
+  background-color: #4CAF50; 
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
