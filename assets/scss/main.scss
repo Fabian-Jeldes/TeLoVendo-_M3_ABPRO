@@ -1,0 +1,12 @@
+// main.scss
+@use "./abstracts/variables";
+@use "./components/navbar";
+@use "./components/hero";
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
