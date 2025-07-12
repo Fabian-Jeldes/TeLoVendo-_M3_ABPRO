@@ -1,4 +1,4 @@
-@use '../components/';
+@use '../abstracts/functions' as *;
 
 
 body {
@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
 }
 
-header__catalogo {
+.header__catalogo {
     display: flex;
     flex-direction: column;
     align-items: center;
