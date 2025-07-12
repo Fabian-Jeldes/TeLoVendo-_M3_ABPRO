@@ -1,0 +1,9 @@
+// _footer.scss
+@use "../abstracts/_variables.scss";
+
+.footer {
+    background-color: variables.$first-color;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+}
