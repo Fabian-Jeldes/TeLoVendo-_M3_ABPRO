@@ -2,8 +2,9 @@
 @use "../abstracts/variables";
 
 .navbar {
-    padding: 0.5rem;
-    background-color: variables.$second-color;
+    padding: 1rem;
+    background-color: variables.$first-color;
+
     &__menu {
         display: flex;
         flex-direction: row;
@@ -21,8 +22,11 @@
         padding: 0.5rem 1rem;
         text-decoration: none;
         border-radius: 20px;
+        background-color: variables.$second-color;
+        color: variables.$color-black;
+
         &:hover {
-            background-color: #d5e5d5;
+            background-color: variables.$first-color;
             color: black;
             transition: background-color 0.3s ease;
             cursor: pointer;

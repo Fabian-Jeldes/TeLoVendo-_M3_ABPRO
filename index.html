@@ -33,9 +33,10 @@
         </li>
       </ul>
     </nav>
+    <!--fin navbar-->
     <!--hero seccion-->
     <section class="hero">
-      <img src="./img/libros.png" alt="books logo" class="hero__logo">
+      <img src="./assets/img/libros.png" alt="books logo" class="hero__logo">
       <h1 class="hero__title">Te Lo Vendo</h1>
       <p class="hero__description">
         En “Te lo Vendo” somos un grupo de jóvenes emprendedores apasionados por la lectura. Creamos esta librería
@@ -46,7 +47,7 @@
         <a class="hero__button" href="#contacto">
           Contacto
         </a>
-        <a class="hero__button" href="/aboutus.html">
+        <a class="hero__button" href="./aboutus.html">
           Sobre Nosotros
         </a>
       </div>
@@ -56,8 +57,8 @@
   <!--main-->
   <main>
     <section class="news" id="news">
-      <h2>Novedades</h2>
-      <p>
+      <h2 class="news__title">Novedades</h2>
+      <p class="news__text">
         Bienvenido a nuestra biblioteca digital. Revisa nuestras últimas
         incorporaciones.
       </p>
@@ -66,10 +67,10 @@
           src="https://www.planetadelibros.com/usuaris/blog_entrada/detalle/thumbs/6b6c03f6-04e8-47f1-a423-7a0e7ed200b8/d_1920_560_crop/1ee27079-84e8-4c2f-94dd-6f0ae37de294-1920x560-saga_empireo.webp"
           alt="Portada del recurso" class="news__card__image">
         <div class="news__card__content">
-          <h3 class="news__card__content__title">Saga Empireo</h3>
-          <p class="news__card__content__autor">Rebecca Yarros</p>
-          <p class="news__card__content__description">Categoría: Fantasia</p>
-          <a href="./ficha.html" class="news__card__content__button">Más información</a>
+          <h3 class="news__card__content--title">Saga Empireo</h3>
+          <p class="news__card__content--autor">Rebecca Yarros</p>
+          <p class="news__card__content--description">Categoría: Fantasia</p>
+          <a href="./ficha.html" class="news__card__content--button">Más información</a>
         </div>
       </article>
     </section>
@@ -78,21 +79,28 @@
       <div class="contact__container">
         <h2 class="contact__title">Contáctanos</h2>
         <form class="contact__form">
-          <label class="contact__label" for="name">Nombre(s)</label>
-          <input class="contact__input" type="text" id="name" name="name" required>
-          <label class="contact__label" for="surname">Apellido(s)</label>
-          <input class="contact__input" type="text" id="surname" name="surname" required>
-          <label class="contact__label" for="message">Mensaje</label>
-          <textarea class="contact__textarea" id="message" name="message" required></textarea>
+          <label class="contact__form--label" for="name">Nombre(s)</label>
+          <input class="contact__form--input" type="text" id="name" name="name" required>
+          <label class="contact__form--label" for="surname">Apellido(s)</label>
+          <input class="contact__form--input" type="text" id="surname" name="surname" required>
+          <label class="contact__form--label" for="message">Mensaje</label>
+          <textarea class="contact__form--textarea" id="message" name="message" required></textarea>
           <button class="contact__button" type="submit">Enviar</button>
         </form>
       </div>
     </section>
   </main>
-  <footer class="footer">
 
-    <p>&copy 2025 Te lo Vendo</p>
- 
+  <!--FOOTER CON REDES SOCIALES-->
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__texto">Síguenos en redes sociales</p>
+      <ul class="footer__redes">
+        <li class="footer__item">
+          <a href="https://www.instagram.com/uandresbello/?hl=es" target="_blank">
+
+            <p>&copy 2025 Te lo Vendo</p>
   </footer>
 </body>
+
 </html>

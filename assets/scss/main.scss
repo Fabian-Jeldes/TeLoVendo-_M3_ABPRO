@@ -1,9 +1,17 @@
 // main.scss
+@use "./base/reset";
+@use "./base/typography";
 @use "./abstracts/variables";
 @use "./components/navbar";
 @use "./components/hero";
+@use "./components/news";
+@use "./components/contact";
+@use "./components/buttons";
+@use "./components/cards";
+@use "./layout/footer";
 @use "./pages/ficha";
 @use "./pages/about";
+@use "./pages/catalogo";
 
 body {
   box-sizing: border-box;
@@ -12,5 +20,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-

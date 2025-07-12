@@ -1,5 +1,8 @@
 // _ficha.scss
 @use "../abstracts/variables" as vars;
+@use "../components/navbar";
+@use "../components/hero";
+
 
 .ficha {
   background-color: vars.$color-ficha;
@@ -23,28 +26,28 @@
   &__contenido {
     padding: 20px;
 
-    & > .ficha__titulo {
+    &>.ficha__titulo {
       font-size: 1.8rem;
       color: #2c3e50;
       margin-bottom: 10px;
     }
 
-    & > .ficha__autor {
+    &>.ficha__autor {
       font-weight: bold;
       margin-bottom: 10px;
     }
 
-    & > .ficha__descripcion {
+    &>.ficha__descripcion {
       margin-bottom: 15px;
     }
 
-    & > .ficha__info {
+    &>.ficha__info {
       font-style: italic;
       color: #666;
       margin-bottom: 20px;
     }
 
-    & > .ficha__boton {
+    &>.ficha__boton {
       display: inline-block;
       background-color: vars.$color-boton;
       color: #fff;
